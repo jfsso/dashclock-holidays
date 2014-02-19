@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_title">DashClock Holidays</string>
+    <string name="extension_title">Holidays</string>
+    <string name="extension_description">Display the holiday name for the current date, when it is one.</string>
+    <string name="not_configured">Tap to configure</string>
+    <string name="multiple_holidays">%1$d holidays</string>
+
+    <string name="calendar_api_url">https://www.google.com/calendar/ical/%1$s.%2$s/public/basic.ics</string>
+
+</resources>

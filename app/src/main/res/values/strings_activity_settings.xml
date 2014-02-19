@@ -1,0 +1,222 @@
+<resources>
+    <string name="title_activity_settings">Holidays Extension Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_title_holiday_calendar">Select Holidays List</string>
+    <string name="pref_title_language">Language (when possible)</string>
+
+    <!-- Calendars -->
+    <string-array name="pref_holiday_calendars_titles">
+        <item>Argentina</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bangladesh</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Bolivia</item>
+        <item>Brazil</item>
+        <item>Bulgaria</item>
+        <item>Canada</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Czech Republic</item>
+        <item>Denmark</item>
+        <item>Dominican Republic</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Greece</item>
+        <item>Guatemala</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Ireland</item>
+        <item>Islamic Republic of Iran</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Malaysia</item>
+        <item>Mexico</item>
+        <item>Netherlands</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Nigeria</item>
+        <item>Norway</item>
+        <item>Pakistan</item>
+        <item>Panama</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Republic of Korea</item>
+        <item>Romania</item>
+        <item>Russian Federation</item>
+        <item>Saudi Arabia</item>
+        <item>Serbia</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>South Africa</item>
+        <item>Spain</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Taiwan</item>
+        <item>Thailand</item>
+        <item>The Democratic Republic of the Congo</item>
+        <item>Turkey</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>Uruguay</item>
+        <item>Venezuela</item>
+        <item>Viet Nam</item>
+        <item>Jewish Holidays</item>
+        <item>Muslim Holidays</item>
+        <item>Orthodox Holidays</item>
+        <item>Christian Holidays</item>
+    </string-array>
+
+    <string-array name="pref_holiday_calendars_values">
+        <item>ar#holiday@group.v.calendar.google.com</item>
+        <item>australian#holiday@group.v.calendar.google.com</item>
+        <item>austrian#holiday@group.v.calendar.google.com</item>
+        <item>az#holiday@group.v.calendar.google.com</item>
+        <item>bd#holiday@group.v.calendar.google.com</item>
+        <item>by#holiday@group.v.calendar.google.com</item>
+        <item>be#holiday@group.v.calendar.google.com</item>
+        <item>bo#holiday@group.v.calendar.google.com</item>
+        <item>brazilian#holiday@group.v.calendar.google.com</item>
+        <item>bulgarian#holiday@group.v.calendar.google.com</item>
+        <item>canadian#holiday@group.v.calendar.google.com</item>
+        <item>cl#holiday@group.v.calendar.google.com</item>
+        <item>china#holiday@group.v.calendar.google.com</item>
+        <item>co#holiday@group.v.calendar.google.com</item>
+        <item>cr#holiday@group.v.calendar.google.com</item>
+        <item>croatian#holiday@group.v.calendar.google.com</item>
+        <item>cu#holiday@group.v.calendar.google.com</item>
+        <item>czech#holiday@group.v.calendar.google.com</item>
+        <item>danish#holiday@group.v.calendar.google.com</item>
+        <item>do#holiday@group.v.calendar.google.com</item>
+        <item>ec#holiday@group.v.calendar.google.com</item>
+        <item>eg#holiday@group.v.calendar.google.com</item>
+        <item>sv#holiday@group.v.calendar.google.com</item>
+        <item>gq#holiday@group.v.calendar.google.com</item>
+        <item>ee#holiday@group.v.calendar.google.com</item>
+        <item>et#holiday@group.v.calendar.google.com</item>
+        <item>finnish#holiday@group.v.calendar.google.com</item>
+        <item>french#holiday@group.v.calendar.google.com</item>
+        <item>german#holiday@group.v.calendar.google.com</item>
+        <item>greek#holiday@group.v.calendar.google.com</item>
+        <item>gt#holiday@group.v.calendar.google.com</item>
+        <item>hn#holiday@group.v.calendar.google.com</item>
+        <item>hong_kong#holiday@group.v.calendar.google.com</item>
+        <item>hungarian#holiday@group.v.calendar.google.com</item>
+        <item>is#holiday@group.v.calendar.google.com</item>
+        <item>indian#holiday@group.v.calendar.google.com</item>
+        <item>indonesian#holiday@group.v.calendar.google.com</item>
+        <item>irish#holiday@group.v.calendar.google.com</item>
+        <item>ir#holiday@group.v.calendar.google.com</item>
+        <item>jewish#holiday@group.v.calendar.google.com</item>
+        <item>italian#holiday@group.v.calendar.google.com</item>
+        <item>japanese#holiday@group.v.calendar.google.com</item>
+        <item>jo#holiday@group.v.calendar.google.com</item>
+        <item>kz#holiday@group.v.calendar.google.com</item>
+        <item>lithuanian#holiday@group.v.calendar.google.com</item>
+        <item>lu#holiday@group.v.calendar.google.com</item>
+        <item>malaysia#holiday@group.v.calendar.google.com</item>
+        <item>mexican#holiday@group.v.calendar.google.com</item>
+        <item>dutch#holiday@group.v.calendar.google.com</item>
+        <item>new_zealand#holiday@group.v.calendar.google.com</item>
+        <item>ni#holiday@group.v.calendar.google.com</item>
+        <item>ng#holiday@group.v.calendar.google.com</item>
+        <item>norwegian#holiday@group.v.calendar.google.com</item>
+        <item>pk#holiday@group.v.calendar.google.com</item>
+        <item>pa#holiday@group.v.calendar.google.com</item>
+        <item>py#holiday@group.v.calendar.google.com</item>
+        <item>pe#holiday@group.v.calendar.google.com</item>
+        <item>philippines#holiday@group.v.calendar.google.com</item>
+        <item>polish#holiday@group.v.calendar.google.com</item>
+        <item>portuguese#holiday@group.v.calendar.google.com</item>
+        <item>south_korea#holiday@group.v.calendar.google.com</item>
+        <item>romanian#holiday@group.v.calendar.google.com</item>
+        <item>russian#holiday@group.v.calendar.google.com</item>
+        <item>saudiarabian#holiday@group.v.calendar.google.com</item>
+        <item>rs#holiday@group.v.calendar.google.com</item>
+        <item>singapore#holiday@group.v.calendar.google.com</item>
+        <item>slovak#holiday@group.v.calendar.google.com</item>
+        <item>slovenian#holiday@group.v.calendar.google.com</item>
+        <item>sa#holiday@group.v.calendar.google.com</item>
+        <item>spain#holiday@group.v.calendar.google.com</item>
+        <item>swedish#holiday@group.v.calendar.google.com</item>
+        <item>ch#holiday@group.v.calendar.google.com</item>
+        <item>taiwan#holiday@group.v.calendar.google.com</item>
+        <item>th#holiday@group.v.calendar.google.com</item>
+        <item>cd#holiday@group.v.calendar.google.com</item>
+        <item>turkish#holiday@group.v.calendar.google.com</item>
+        <item>ukrainian#holiday@group.v.calendar.google.com</item>
+        <item>ae#holiday@group.v.calendar.google.com</item>
+        <item>uk#holiday@group.v.calendar.google.com</item>
+        <item>usa#holiday@group.v.calendar.google.com</item>
+        <item>uy#holiday@group.v.calendar.google.com</item>
+        <item>ve#holiday@group.v.calendar.google.com</item>
+        <item>vietnamese#holiday@group.v.calendar.google.com</item>
+        <item>judaism#holiday@group.v.calendar.google.com</item>
+        <item>islamic#holiday@group.v.calendar.google.com</item>
+        <item>orthodox_christianity#holiday@group.v.calendar.google.com</item>
+        <item>christian#holiday@group.v.calendar.google.com</item>
+    </string-array>
+
+    <!-- Languages -->
+    <string-array name="pref_language_titles">
+        <item>Deutsch (Deutschland)‬</item>
+        <item>English</item>
+        <item>esperanto</item>
+        <item>Español</item>
+        <item>Français</item>
+        <item>Italiano</item>
+        <item>Nederlands</item>
+        <item>Português Brasil</item>
+        <item>Português Portugal</item>
+        <item>Svenska</item>
+        <item>한국어‬</item>
+        <item>日本語</item>
+        <item>简体中文‬</item>
+    </string-array>
+
+    <string-array name="pref_language_values">
+        <item>de</item>
+        <item>en</item>
+        <item>eo</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>it</item>
+        <item>nl</item>
+        <item>pt-br</item>
+        <item>pt</item>
+        <item>sv</item>
+        <item>ko</item>
+        <item>ja</item>
+        <item>zh-cn‪</item>
+    </string-array>
+
+</resources>
