@@ -130,6 +130,7 @@ public class HolidaysExtension extends DashClockExtension {
         today.setTimeZone(TimeZone.getTimeZone("UTC"));
 
         if (useCache(today, reason)) {
+            Timber.i("Using cache.");
             return;
         }
 
@@ -156,6 +157,7 @@ public class HolidaysExtension extends DashClockExtension {
             OkHttpClient client = new OkHttpClient();
             URL url = new URL(getString(R.string.calendar_api_url, lang, URLEncoder.encode(calendarId, "UTF-8")));
             HttpURLConnection connection = client.open(url);
+            Timber.i("Url: %s", url.toString());
             in = connection.getInputStream();
 
             CalendarBuilder builder = new CalendarBuilder();
@@ -220,6 +222,7 @@ public class HolidaysExtension extends DashClockExtension {
     public boolean useCache(java.util.Calendar today, int reason) {
         // read cache
         if (reason == UPDATE_REASON_INITIAL || reason == UPDATE_REASON_MANUAL) {
+            clearCache();
             return false;
         }
 
