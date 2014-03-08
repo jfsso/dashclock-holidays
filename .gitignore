@@ -6,3 +6,5 @@ build
 *.iml
 
 keystore.properties
+
+com_crashlytics_export_strings.xml
