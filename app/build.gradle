@@ -26,8 +26,21 @@ android {
         buildConfigField "String", "BUILD_TIME", "\"${buildTime}\""
     }
 
+    signingConfigs {
+        release {
+            Properties props = new Properties()
+            props.load(new FileInputStream(file("../keystore.properties")))
+            storeFile file(props['signing.release.storeFile'])
+            keyAlias props['signing.release.keyAlias']
+            storePassword props['signing.release.storePassword']
+            keyPassword props['signing.release.keyPassword']
+        }
+    }
+
     buildTypes {
         release {
+            zipAlign true
+            signingConfig signingConfigs.release
             runProguard false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
@@ -47,4 +60,17 @@ dependencies {
     compile 'com.crashlytics.android:crashlytics:1.+'
     compile 'com.jakewharton.timber:timber:2.1.+'
     compile fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+}
+
+task readPasswordFromInput << {
+    if(!android.signingConfigs.release.keyPassword || !android.signingConfigs.release.storePassword) {
+        android.signingConfigs.release.storePassword = new String(System.console().readPassword("\$ Store password: "))
+        android.signingConfigs.release.keyPassword = new String(System.console().readPassword("\$ Key password: "))
+    }
+}
+
+tasks.whenTaskAdded { task ->
+    if (task.name == 'validateReleaseSigning') {
+        task.dependsOn readPasswordFromInput
+    }
 }
