@@ -3,7 +3,7 @@
 
     <string name="app_title">DashClock Holidays</string>
     <string name="extension_title">Holidays</string>
-    <string name="extension_description">Display the holiday name for the current date, when it is one.</string>
+    <string name="extension_description">Displays the holiday for the current date, when it is one.</string>
     <string name="not_configured">Tap to configure</string>
     <string name="multiple_holidays">%1$d holidays</string>
 
